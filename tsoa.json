@@ -1,0 +1,15 @@
+{
+  "entryFile": "./src/server.ts",
+  "spec": {
+    "outputDirectory": "./dist",
+    "host": "localhost:8081",
+    "basePath": "/api",
+    "yaml": true,
+    "specVersion": 2
+  },
+  "routes": {
+    "basePath": "/api",
+    "entryFile": "./src/server.ts",
+    "routesDir": "./src/controllers"
+  }
+}
